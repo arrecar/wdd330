@@ -23,7 +23,7 @@ cat.addEventListener("drop", function(event) {
 
 var catHeading = document.getElementById('catHeading');
 
-var mouseID = originalEvent.dataTransfer.getData("text/plain");
+var mouseID = event.originalEvent.dataTransfer.getData("text/plain");
 
 catHeading.innerHTML = mouseHash[mouseID];
 var mousey = document.getElementById(item);

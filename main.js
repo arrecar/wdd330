@@ -14,6 +14,10 @@ const links = [
     {
       label: "Week5",
       url: "https://arrecar.github.io/wdd330/week5/"
+    },
+    {
+      label: "Week8",
+      url: "https://arrecar.github.io/wdd330/week8/"
     }
   ]
 
